@@ -1,0 +1,11 @@
+﻿pH,Nitrogen (N),Phosphorus (P),Potassium (K),Organic Matter (%),Soil Texture,Crop Type,target_crop_yield
+6.5,0.15,20,180,3.5,Loam,Wheat,
+5.8,0.12,15,200,2,Clay,Corn,
+7,0.2,25,150,5,Sandy,Soybean,
+6,0.18,10,220,4.5,Loamy Sand,Barley,
+6.7,0.25,30,175,6,Silty Clay,Rice,
+5.5,0.1,5,140,1.5,Clay,Oats,
+6.2,0.14,18,160,3,Silt,Rye,
+6.8,0.22,22,190,4,Loam,Millet,
+7.2,0.19,28,210,5.5,Sandy Loam,Sorghum,
+5.9,0.16,12,155,2.8,Clay,Peas,
