@@ -1,0 +1,9 @@
+Flask
+transformers
+pandas
+psycopg2
+SpeechRecognition
+deep_translator
+vanna
+ollama
+torch
