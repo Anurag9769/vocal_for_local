@@ -11,6 +11,8 @@ To identify and analyze the key challenges in the hyperlocal market in India and
   pip install -r requirement.txt
   
 - [Usage](#usage)
+
+
   Create a prtostre data base provide the details in the app.py file
   Sample SQL:
   ```sql
