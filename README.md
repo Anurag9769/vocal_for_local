@@ -13,20 +13,21 @@ To identify and analyze the key challenges in the hyperlocal market in India and
 - [Usage](#usage)
 
 
-  Create a prtostre data base provide the details in the app.py file
+  Create a postgres data base provide the details in the app.py file
   Sample SQL:
   ```sql
     CREATE TABLE public.inventory (
       item_name VARCHAR(100),  
-  	mfg_date DATE,  
+  	  mfg_date DATE,  
       expiry_date DATE,                  
       quantity INT,                     
       max_quantity INT,                  
       need_to_purchase BOOLEAN,          
       notes TEXT                         
-      );
-      INSERT INTO public.inventory (item_name, mfg_date, expiry_date, quantity, max_quantity, need_to_purchase, notes)
-      VALUES 
+     );
+  
+    INSERT INTO public.inventory (item_name, mfg_date, expiry_date, quantity, max_quantity, need_to_purchase, notes)
+    VALUES 
       ('Basmati Rice', '2023-08-15', '2025-08-15', 200, 300, FALSE, 'Premium quality rice'),
       ('Coconut Oil', '2023-09-01', '2025-09-01', 120, 150, FALSE, 'Cold-pressed coconut oil'),
       ('Whole Wheat Atta', '2024-01-10', '2024-11-10', 150, 200, TRUE, 'Organic whole wheat atta'),
@@ -40,8 +41,20 @@ To identify and analyze the key challenges in the hyperlocal market in India and
   ```
   Run the fask application, it will start the chat server which provide response via LLM model by analyssing the provided postgress database connection details
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+
+  ## 1. Local Language Support
+  Current support for Hindi with natural language processing to enable ease of use for shop owners.
+  
+  ## 2. Automated Relational Database Query Generation
+  No need for technical knowledge; the system automatically converts user prompts into SQL commands for CRUD operations.
+  
+  ## 3. Real-time Inventory Management
+  Immediate response to inventory-related queries and tasks, ensuring that stock levels and orders are always up-to-date.
+  
+  ## 4. Ease of Access
+  Simple, voice or text-based commands for managing the database.
+  
+
 
 ## Installation
 
